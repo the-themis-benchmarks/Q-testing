@@ -104,3 +104,14 @@ The output contents are placed in folder `benchmark/<apk_name>_output-1/`
 /coverage_new_1/curve_data_all.txt -- The final code coverage.
 ```
 
+# How to build Q-testing (editted by Themis)
+
+1. we use [this version]() of Q-testing
+
+2. create python virtual environment and install dependencies
+
+```
+cd Q-testing
+virtualenv -p /usr/bin/python2.7 venv
+pip install uiautomator==0.3.6
+```
