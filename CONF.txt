@@ -1,0 +1,15 @@
+[Path]
+#Note: The apks should be placed under 'Benchmark' directory.
+Benchmark = /home/themis/the-themis-benchmark/tools/Q-testing/subjects/
+APK_NAME = AnkiDroid-debug-2.9alpha4-#4707.apk
+
+# For instrumented APKs
+APP_SOURCE_PATH = /Users/Your_Name/Projects/test
+MANIFEST_FILE = /Users/Your_Name/Projects/test/src/main/AndroidManifest.xml
+
+
+[Setting]
+# You can use command `adb devices` to get the Android device's ID replace the DEVICE_ID.
+DEVICE_ID = emulator-5554
+# You may change TIME_LIMIT for debug.
+TIME_LIMIT = 3600
